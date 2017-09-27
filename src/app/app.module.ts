@@ -4,7 +4,6 @@ import { FormsModule } from '@angular/forms'
 import { RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
-import { HomeComponent } from './home/home.component';
 import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 import { HeroesComponent } from './heroes/heroes.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
@@ -14,7 +13,6 @@ import { HeroService } from './hero.service';
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent,
     HeroDetailComponent,
     HeroesComponent,
     DashboardComponent,
